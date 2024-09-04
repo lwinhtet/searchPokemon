@@ -11,7 +11,7 @@ I created an application named **pokemon-search** using Next.js, TypeScript, and
 
 To get started with the project, clone the repository and install the dependencies:
 
-````bash
+```bash
 git clone https://github.com/lwinhtet/searchPokemon.git
 cd searchPokemon
 npm install
@@ -21,7 +21,7 @@ Run the development server:
 
 ```bash
 npm run dev
-````
+```
 
 Visit http://localhost:3000 to view the application.
 
