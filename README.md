@@ -15,8 +15,9 @@ To get started with the project, clone the repository and install the dependenci
 git clone https://github.com/lwinhtet/searchPokemon.git
 cd searchPokemon
 npm install
+```
 
-Then run the app:
+Run the development server:
 
 ```bash
 npm run dev
