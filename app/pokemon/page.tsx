@@ -6,8 +6,23 @@ import PokemonInfo from '@/components/ui/PokemonInfo';
 import useSearchPokemon, {
   UseSearchPokemonType,
 } from '@/hooks/useSearchPokemon';
+import { Suspense } from 'react';
 
 export default function Home() {
+  return (
+    <Suspense
+      fallback={
+        <p className="flex flex-col items-center gap-4 mt-32 text-2xl font-semibold max-w-4xl mx-auto text-center">
+          Loading...
+        </p>
+      }
+    >
+      <Pokemon />
+    </Suspense>
+  );
+}
+
+function Pokemon() {
   const {
     name,
     setName,
